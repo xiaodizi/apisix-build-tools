@@ -25,10 +25,10 @@ iteration=0
 local_code_path=0
 openresty="apisix-runtime"
 artifact="0"
-runtime_version="0"
-apisix_repo="https://github.com/apache/apisix"
-apisix_runtime_repo="https://github.com/api7/apisix-build-tools.git"
-dashboard_repo="https://github.com/apache/apisix-dashboard"
+runtime_version=1.0.0
+apisix_repo="https://github.com/xiaodizi/apisix.git"
+apisix_runtime_repo="https://github.com/xiaodizi/apisix-build-tools.git"
+dashboard_repo="https://github.com/xiaodizi/apisix-dashboard.git"
 
 ### set the default image for deb package
 ifeq ($(type), deb)
